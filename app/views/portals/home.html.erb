@@ -1,0 +1,7 @@
+<div class="row">
+	<div class="col-sm-8 col-sm-offset-2 centered">
+		<%= current_user.inspect %>
+		<%= link_to 'logout', destroy_user_session_path(current_user), method: :delete %>
+		<%= Rails.root %>
+		</div>
+</div>
